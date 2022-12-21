@@ -61,9 +61,8 @@ class SinglyLinkedList:
                 location = location.next_node
                 return printsll[:-1]
 
-            def sorted_insert(self, value):
-
-             """insert in a sorted fashion
+            def sorted_insert(self, value): 
+            """insert in a sorted fashion
             Args:
             value: what the value will be on the node
             """
